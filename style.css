@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 8px;
+    
+
+}
+
+header nav{
+    text-align: right;
+    height: 60px;
+    vertical-align: middle;
+}
+
+
+header nav a{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+    height: 60px;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+#logo{
+    background-color: transparent;
+    border: none;
+    float: left;
+    padding: 10px;
+}
+
+.banner{
+    width: 100%;
+}
+
+main div{
+    text-align: center;
+}
+
+.topic img{
+    width: 50%;
+}
+.gallery img{
+    width: 40%;
+}
+
+.products-container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.item-container{
+    width: 240px;
+    height: 140px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.item-image{
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.item-title{
+    font-weight: bold;
+}
+
+.item-price{
+    color: red;
+}
+
+
+
+
