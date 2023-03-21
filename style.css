@@ -6,7 +6,7 @@
 
 header{
     color: white;
-    background-color: black;
+    background-color: #A64B00;
     text-align: center;
     padding-bottom: 8px;
     
@@ -15,20 +15,22 @@ header{
 
 header nav{
     text-align: right;
-    height: 60px;
+    height: 70px;
     vertical-align: middle;
+    align-items: center;
 }
 
+a, a:visited,a:hover,a:active{
+    text-decoration: none;
+}
 
 header nav a{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 26px;
+    padding: 20px;
+    display: inline-block;
     vertical-align: middle;
-    height: 60px;
     text-decoration: none;
-    background-color: white;
-    
+    color: white;
 }
 
 #logo{
@@ -36,6 +38,20 @@ header nav a{
     border: none;
     float: left;
     padding: 10px;
+}
+
+main{
+    background: url("./bg3.jpg");
+    width: 100%;
+    height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h1{
+    color:#A64B00;
 }
 
 .banner{
@@ -46,11 +62,19 @@ main div{
     text-align: center;
 }
 
+main div h1{
+    padding-top: 30px;
+}
+
 .topic img{
     width: 50%;
 }
 .gallery img{
     width: 40%;
+}
+
+.all-products{
+    margin-top: 30px;
 }
 
 .products-container{
@@ -61,10 +85,11 @@ main div{
 
 .item-container{
     width: 240px;
-    height: 140px;
-    background-color: whitesmoke;
+    height: 220px;
+    background-color: #FFB273;
     text-align: center;
     margin: 20px;
+    border-radius: 30px;
     
 }
 
@@ -72,16 +97,116 @@ main div{
     width: 240px;
     height: 160px;
     object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .item-title{
     font-weight: bold;
+    color: black;
+    font-size: 20px;
 }
 
 .item-price{
     color: red;
 }
 
+.item-detail-container{
+    padding-top: 30px;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.item-detail-image{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.item-detail-price{
+    color: red;
+    font-size: 26px;
+}
+
+.item-detail-description{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24px;
+    background-color: #FFB273;
+    border-radius: 20px;
+}
+
+.item-detail-button{
+    font-size: 20px;
+    width: 30%;
+    margin: 20px;
+}
+
+.item-detail-button:hover{
+    background-color: #A64B00;
+}
+
+.about-container-1{
+    padding: 20px;
+    display: flex;
+    background-image: url("./bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.about-container-1 img, .about-container-2 img{
+    width: 50%;
+}
+
+.about-container-1 p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    color: #FFB273;
+}
+
+.about-container-2{
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    background-image: url("./bg4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.about-container-2 p{
+    text-align: right;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    color: #A64B00;
+}
+
+.staff-container{
+    background-image: url("./bg5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.staff-container img{
+    width: 30%;
+    height: 300px;
+    border-radius: 13%;
+    padding: 20px;
+}
+
+footer{
+    padding: 30px;
+    background-color: #A64B00;
+    color: white;
+}
 
 
 
