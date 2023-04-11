@@ -1,21 +1,19 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 header{
     color: white;
-    background-color: #A64B00;
+    background: linear-gradient(to bottom, #A64B00, rgb(199, 150, 26));
     text-align: center;
-    padding-bottom: 8px;
-    
-
 }
 
 header nav{
     text-align: right;
-    height: 70px;
+    height: 8vw;
     vertical-align: middle;
     align-items: center;
 }
@@ -25,8 +23,8 @@ a, a:visited,a:hover,a:active{
 }
 
 header nav a{
-    font-size: 26px;
-    padding: 20px;
+    font-size: 2vw;
+    padding: 2.5vw;
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
@@ -37,11 +35,14 @@ header nav a{
     background-color: transparent;
     border: none;
     float: left;
-    padding: 10px;
+    padding: 1.5vw;
+    width: 10%;
+
 }
 
+
+
 main{
-    background: url("./bg3.jpg");
     width: 100%;
     height: 100%;
 
@@ -63,7 +64,7 @@ main div{
 }
 
 main div h1{
-    padding-top: 30px;
+    padding-top: 3vw;
 }
 
 .topic img{
@@ -74,45 +75,48 @@ main div h1{
 }
 
 .all-products{
-    margin-top: 30px;
+    margin-top: 1vw;
 }
 
 .products-container{
     display: flex;
-    padding: 20px;
+    padding: 1vw;
     justify-content: center;
 }
 
 .item-container{
-    width: 240px;
-    height: 220px;
+    width: 18vw;
+    height: 18vw;
     background-color: #FFB273;
     text-align: center;
-    margin: 20px;
-    border-radius: 30px;
+    margin: 2vw;
+    border-radius: 2vw;
     
 }
 
 .item-image{
-    width: 240px;
-    height: 160px;
+    
+    width: 18vw;
+    height: 12vw;
     object-fit: cover;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 2vw;
+    
 }
 
 .item-title{
     font-weight: bold;
     color: black;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 .item-price{
+    font-size:1.5vw;
     color: red;
+    font-weight: bold;
 }
 
 .item-detail-container{
-    padding-top: 30px;
+    padding-top: 10vw;
     justify-content: center;
     width: 100%;
     background-color: whitesmoke;
@@ -120,27 +124,27 @@ main div h1{
 }
 
 .item-detail-image{
-    width: 50%;
+    width: 20%;
     border-radius: 50%;
 }
 
 .item-detail-price{
     color: red;
-    font-size: 26px;
+    font-size: 3vw;
 }
 
 .item-detail-description{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 24px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 3vw;
     background-color: #FFB273;
-    border-radius: 20px;
+    border-radius: 3vw;
 }
 
 .item-detail-button{
-    font-size: 20px;
+    font-size: 20vw;
     width: 30%;
-    margin: 20px;
+    margin: 3vw;
 }
 
 .item-detail-button:hover{
@@ -148,9 +152,9 @@ main div h1{
 }
 
 .about-container-1{
-    padding: 20px;
+    padding: 2vw;
     display: flex;
-    background-image: url("./bg1.jpg");
+    background-image: url("./images/bg1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,17 +167,17 @@ main div h1{
 
 .about-container-1 p{
     text-align: left;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 20px;
+    font-size: 2vw;
+    line-height: 3vw;
+    padding: 2vw;
     color: #FFB273;
 }
 
 .about-container-2{
-    padding: 20px;
+    padding: 2vw;
     display: flex;
     justify-content: right;
-    background-image: url("./bg4.jpg");
+    background-image: url("./images/bg4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,31 +186,161 @@ main div h1{
 
 .about-container-2 p{
     text-align: right;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 20px;
+    font-size: 2vw;
+    line-height: 3vw;
+    padding: 2vw;
     color: #A64B00;
 }
 
+.cart-container{
+    padding: 2vw;
+    display: flex;
+}
+
+.cart-text-container{
+    padding-left: 1vw;
+}
+
 .staff-container{
-    background-image: url("./bg5.jpg");
+    background-image: url("./images/bg5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .staff-container img{
-    width: 30%;
-    height: 300px;
+    width: 30vw;
+    height: 20vw;
     border-radius: 13%;
     padding: 20px;
 }
 
+.register-container{
+    padding: 2vw;
+}
+
+.register{
+    width: 50%;
+    padding:2vw;
+    background: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+    justify-content: start;
+    font-size: 20vw;
+}
+
+.register p {
+    padding-top: 2vw;
+    text-align: left;
+}
+
+.register p input{
+    width: 45vw;
+    height: 3vw;
+}
+
+.register p input::placeholder{
+    font-size: 1vw;
+}
+
+.register button{
+    width: 30vw;
+    height: 5vw;
+    font-size: 2vw;
+    background-color: #60D6A9;
+    border-radius: 3vw;
+}
+
+.payment-container{
+    width: 100%;
+}
+
+.payment-button{
+    text-align: center;
+    width: 30vw;
+    height: 5vw;
+    font-size: 2vw;
+    background-color: #60D6A9;
+    border-radius: 3vw;
+    margin: 2vw;
+}
+
+h1{
+    font-size: 3vw;
+}
+h2{
+    font-size: 2vw;
+}
+p{
+    font-size: 1.3vw;
+}
+
+.popular-tag{
+    position: absolute;
+    width: 5vw;
+}
+
 footer{
-    padding: 30px;
+    padding: 2vw;
     background-color: #A64B00;
     color: white;
 }
 
 
 
+.flip{
+    transform: scaleX(-1);
+}
+
+.input-buy-amount{
+    width: 2vw;
+    height: 1.4vw;
+}
+
+.input-buy-amount::placeholder{
+    text-align: center;
+}
+
+.cart-item-image{
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+
+    header nav{
+        text-align: left;
+    }
+
+    header nav a{
+        
+        display: block;
+       
+    }
+    
+
+    #menu{
+        display: block;
+        overflow: hidden;
+        max-height: 0;
+        padding: 0;
+        margin: 0 auto;
+        transition: 0.4;
+    }
+
+    #div-container:hover{
+        height: 300px;
+    }
+
+    #logo:hover + #menu,#menu:hover{
+        overflow: visible;
+    }
+    
+
+}
